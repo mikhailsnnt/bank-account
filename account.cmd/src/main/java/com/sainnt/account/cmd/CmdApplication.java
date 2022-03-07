@@ -1,4 +1,4 @@
-package com.sainnt.accountcmd;
+package com.sainnt.account.cmd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
