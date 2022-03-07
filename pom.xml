@@ -17,5 +17,6 @@
         <module>account.cmd</module>
         <module>account.common</module>
         <module>account.query</module>
+        <module>cqrs.core</module>
     </modules>
 </project>
