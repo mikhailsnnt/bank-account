@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Slf4j
 public abstract class AggregateRoot {
-    private String id;
+    protected String id;
     private int version = -1;
     private final List<BaseEvent> changes = new ArrayList<>();
 
@@ -16,9 +16,6 @@ public abstract class AggregateRoot {
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public int getVersion() {
         return version;
